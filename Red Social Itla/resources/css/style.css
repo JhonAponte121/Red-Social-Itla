@@ -1,0 +1,357 @@
+:root {
+    --main-color: #45B39D
+}
+
+header {
+    background-color: var(--main-color);
+}
+
+.btn-radio {
+    background-color: var(--main-color);
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.btn-radio:hover {
+    background-color: #73C6B6;
+    color: #505050
+}
+
+.container-center {
+    height: 100vh;
+    width: 100%;
+    background-color: #ffffff
+}
+
+.container-content {
+    height: 600px;
+    width: 1000px;
+}
+
+.content-action {
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+}
+
+.content-action input {
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    background-color: #f2f2f2;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 1rem;
+    outline: none;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-pastel {
+    outline: none;
+    background-color: var(--main-color);
+    border: 0;
+    padding: 0.55rem;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.btn-pastel:hover {
+    background-color: #73C6B6;
+    color: #505050
+}
+
+.mal {
+    width: 100%;
+    background-color: #dc3545;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    height: 3px;
+    color: #dc3545;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.bien {
+    width: 100%;
+    background-color: #28a745;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    height: 3px;
+    color: #28a745;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #D6DBDF;
+}
+
+.nombre-perfil {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.usuario-perfil {
+    font-weight: bold;
+    color: gray;
+    font-size: 18px;
+}
+
+.banner-perfil {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.perfil-usuario-container {
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil-usuario-container img {
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    top: 10px;
+    border-radius: 10px;
+    border: solid #138D75 2pt;
+}
+
+.separador {
+    width: 100%;
+    height: 50px;
+}
+
+.text-publicar {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    overflow: hidden;
+    resize: none;
+}
+
+.container-publicar {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form-publicar {
+    width: 100%
+}
+
+.text-publicar:focus {
+    border: 1px solid var(--main-color);
+}
+
+.imagen-comentario {
+    height: 40px;
+    width: 40px;
+}
+
+.text-publicacion {
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    overflow: hidden;
+    resize: none;
+    border: 1px solid var(--main-color);
+}
+
+.text-publicacion:disabled {
+    background-color: #ffffff;
+    color: black;
+}
+
+.btn-icon-eliminar {
+    outline: none;
+    background-color: #EC7063;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn-icon-editar {
+    outline: none;
+    background-color: #73C6B6;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.btn-oculto {
+    display: none;
+}
+
+.btn-mostrar {
+    display: block;
+}
+
+.container-contenido-comentarios {
+    display: flex;
+    padding-top: 5px;
+    margin-top: 20px;
+    background-color: #EAECEE;
+    border-radius: 10px;
+}
+
+.formulario-comentarios {
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    background-color: #EAECEE;
+    border-radius: 10px;
+}
+
+.comentario-usuario {
+    border: 0;
+    border-bottom: 1px solid #747474;
+    width: 100%;
+    padding: .4em .5em .4em .8em;
+    outline: none;
+}
+
+.form-comentar {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-comentario-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end
+}
+
+.acciones-publicacion-usuario {
+    margin-left: auto;
+}
+
+.usuarios-publicaciones-top {
+    width: 100%;
+    display: flex;
+}
+
+.contenido-publicacion-usuario {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container-usuarios-publicaciones {
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informacion-usuario-publico {
+    margin-left: 10px;
+    display: block;
+}
+
+.sinPublicaciones {
+    color: gray;
+    margin-top:70px;
+    text-align: center;
+}
+
+.banner {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.btnAgregar{
+    background-color: #73C6B6;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    width: 50%;
+    margin-top: 15px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.btnAgregar:hover {
+    color: #505050
+}
+
+.input-usuario {
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    background-color: #f2f2f2;
+    height: 45px;
+    margin-bottom: 10px;
+    padding: 1rem;
+    outline: none;
+}
+
+.container-amigo {
+    width: 100%;
+    padding: .4em .5em .4em .8em;
+    outline: none;
+    margin-bottom: 20px;
+    background-color: #EAECEE;
+    border-radius: 10px;
+}
+
+
+
